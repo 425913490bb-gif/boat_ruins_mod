@@ -1,0 +1,49 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# loom
+.architectury-transformer/
+loom-cache/
+
+# eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+*.DS_Store
+
+# windows
+Thumbs.db
+Desktop.ini
+
+# fabric / minecraft
+run/
+logs/
+
+# java
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+*.log
+
+# misc
+*.tmp
+*.bak
+*.swp
+*~

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "boat_ruins_mod",
+	"version": "${version}",
+	"name": "Boat Ruins Mod",
+	"description": "A Fabric mod that adds boat ruins to Minecraft!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/boat_ruins_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.BoatRuinsMod"
+		],
+		"client": [
+			"com.example.client.BoatRuinsModClient"
+		]
+	},
+	"mixins": [
+		"boat_ruins_mod.mixins.json",
+		{
+			"config": "boat_ruins_mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

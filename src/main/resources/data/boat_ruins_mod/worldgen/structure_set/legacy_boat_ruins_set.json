@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "boat_ruins_mod:legacy_boat_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2037485629,
+    "frequency": 0.7,
+    "frequency_reduction_method": "legacy_type_1",
+    "spread_type": "linear",
+    "spacing": 40,
+    "separation": 10
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "boat_ruins_mod:legacy_boat_ruins",
+  "biomes": "#minecraft:is_ocean",
+  "max_distance_from_center": 80,
+  "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+  "size": 1,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 6
+  },
+  "start_pool": "boat_ruins_mod:shipwreck_variants",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false,
+  "dimension_padding": {
+    "bottom": 0,
+    "top": 0
+  },
+  "liquid_settings": "apply_waterlogging"
+}

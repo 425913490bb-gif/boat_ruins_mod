@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cartographer/3/compass_emerald",
+    "minecraft:cartographer/3/emerald_and_compass_ocean_explorer_map",
+    "minecraft:cartographer/3/emerald_and_compass_trial_chamber_map",
+    "boat_ruins_mod:cartographer/3/emerald_and_compass_boat_ruins_map"
+  ]
+}
