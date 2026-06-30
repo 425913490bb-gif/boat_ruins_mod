@@ -42,6 +42,9 @@ replay_*.log
 *.jfr
 *.log
 
+# claude
+.claude/
+
 # misc
 *.tmp
 *.bak
