@@ -11,7 +11,7 @@
     "frequency": 0.7,
     "frequency_reduction_method": "legacy_type_1",
     "spread_type": "linear",
-    "spacing": 40,
-    "separation": 10
+    "spacing": 72,
+    "separation": 18
   }
 }
