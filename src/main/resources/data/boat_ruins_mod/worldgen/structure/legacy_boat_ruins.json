@@ -6,7 +6,7 @@
   "size": 1,
   "spawn_overrides": {},
   "start_height": {
-    "absolute": 6
+    "absolute": 0
   },
   "start_pool": "boat_ruins_mod:shipwreck_variants",
   "step": "surface_structures",
